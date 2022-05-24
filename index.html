@@ -6,25 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Java Script Caluculator App</title>
   <link rel="stylesheet" href="caluculator.css">
-  <script src="caluculator.js"></script>
 </head>
 <body>
   <h1 class="header" id="heading">
     CALCULATOR APP
   </h1>
   <div class="calc">
-    <section class="screen">
+    <section class="screen" id="show-values">
       0
     </section>
     <section class="class-row">
-      <div>
-        <button class=" double calc-button">C</button>
-        <button class="calc-button">←</button>
+      <div id="first-row-container">
+        <button class=" double calc-button" onclick="clearScreen()">C</button>
+        <button class="calc-button" onclick="clearLastElement()">←</button>
         <button class="calc-button">/</button>
       </div>
     </section>
     <section class="class-row">
-      <div>
+      <div id="second-row-container">
         <button class="calc-button">7</button>
         <button class="calc-button">8</button>
         <button class="calc-button">9</button>
@@ -32,7 +31,7 @@
       </div>
     </section>
     <section class="class-row">
-      <div>
+      <div id="third-row-container">
         <button class="calc-button">4</button>
         <button class="calc-button">5</button>
         <button class="calc-button">6</button>
@@ -40,7 +39,7 @@
       </div>
     </section>
     <section class="class-row">
-      <div>
+      <div id="fourth-row-container">
         <button class="calc-button">1</button>
         <button class="calc-button">2</button>
         <button class="calc-button">3</button>
@@ -48,11 +47,12 @@
       </div>
     </section>
     <section class="class-row">
-      <div>
+      <div id="fifth-row-container">
         <button class="triple calc-button">0</button>
         <button class="calc-button">=</button>
       </div>
     </section>
   </div>
+  <script src="caluculator.js"></script>
 </body>
 </html>
