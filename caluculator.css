@@ -30,9 +30,8 @@ body {
   background-color: #d8d9db;
   color: black;
   height: 100px;
-  width: 24.7%;
+  width: 24.2%;
   font-size: 40px;
-  border: none;
   border-radius:0;
   cursor: pointer;
 }
@@ -48,7 +47,6 @@ body {
   display: flex;
   align-content: stretch;
   justify-content: space-between;
-  margin-bottom:0.5%
 }
 
 .calc-button:last-child{
@@ -64,9 +62,9 @@ body {
 }
 
 .double{
-  width: 49.6%;
+  width: 49.4%;
 }
 
 .triple{
-  width: 74.8%;
+  width: 74.5%;
 }
